@@ -21,4 +21,14 @@ Things you may want to cover:
 
 * Deployment instructions
 
+# API
+
+GET     /api/users								- api/users#index
+POST    /api/users(.:format)                  	- api/users#create
+GET     /api/users/:id(.:format)     		    - api/users#show
+PATCH   /api/users/:id(.:format)              	- api/users#update
+PUT     /api/users/:id(.:format)              	- api/users#update
+DELETE  /api/users/:id(.:format)              	- api/users#destroy
+GET     /api/users/typeahead/:input(.:format) 	- api/users#typeahead
+
 * ...
